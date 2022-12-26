@@ -1,0 +1,132 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   max-width: 1440px;
+}
+
+img {
+   vertical-align: middle;
+}
+
+
+:root {
+   --font-Book: 'Futura PT Book';
+   --font-CondMedium: 'Futura PT Cond Medium';
+   --font-Demi: 'Futura PT Demi';
+   --font-Heavy: 'Futura PT Heavy';
+   --font-Light: 'Futura PT Light';
+   --font-Medium: 'Futura PT Medium';
+   --color-orange: #F3523C;
+   --color-blue: #425FDE;
+   --color-grey: #949494;
+   --color-black: #1E1E1E;
+   --color-white: #FFFFFF;
+}
+
+@font-face {
+   font-family: 'Futura PT Book';
+   src: url(../fonts/futura/Futura\ Book\ font.ttf);
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: 'Futura PT Cond Medium';
+   src: url(../fonts/futura/futura\ medium\ condensed\ bt.ttf);
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: 'Futura PT Demi';
+   src: url(../fonts/futura/futura-pt-demi.otf);
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: 'Futura PT Heavy';
+   src: url(../fonts/futura/Futura\ Heavy\ font.ttf);
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: 'Futura PT Light';
+   src: url(../fonts/futura/Futura\ Light\ font.ttf);
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: 'Futura PT Medium';
+   src: url(../fonts/futura/futura-pt-medium.otf);
+   font-style: normal;
+   font-weight: normal;
+}
+
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: var(--color-black);
+   padding: 0 160px;
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+input {
+   border-radius: 17.5px;
+   background-color: rgba(255, 255, 255, 0.07);
+   border: none;
+   min-height: 28px;
+}
+
+.top-right {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.top-right-text {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 22px;
+   margin-right: 49px;
+   
+}
+
+.top-right-text button {
+   background-color: var(--color-black);
+   border: none;
+   }
+
+.top-right-text a{
+   text-decoration: none;
+   color: var(--color-white);
+   cursor: pointer;
+   font-family: var(--font-Book);
+   font-weight: 400;
+   line-height: 14.07px;
+   font-size: 13px;
+} 
+
+.top-right-text li:first-child::after {
+   content: url(../img/range.svg);
+   margin-left: 3px;
+}
+
+.top-right-pics{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 12px;
+}
+.top-right-pics button {
+   background-color: var(--color-black);
+   cursor: pointer;
+   border: none;
+   }
