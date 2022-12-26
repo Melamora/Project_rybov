@@ -351,3 +351,8 @@ input {
    max-width: 550px;
    width: 100%;
 }
+
+.fishes-bottom {
+   width: 100%;
+   margin-bottom: 68px;
+}
