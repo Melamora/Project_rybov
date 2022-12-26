@@ -1,0 +1,17 @@
+@media screen and (max-width: 900px) {
+   .gallery-why {
+      flex-direction: column;
+      gap: 0;
+   }
+.because{
+   max-width: 320px;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+   .header {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+}
