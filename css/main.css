@@ -22,6 +22,7 @@ img {
    --color-grey: #949494;
    --color-black: #1E1E1E;
    --color-white: #FFFFFF;
+   --color-background-dark: #353535;
 }
 
 @font-face {
@@ -96,15 +97,15 @@ input {
    justify-content: center;
    gap: 22px;
    margin-right: 49px;
-   
+
 }
 
 .top-right-text button {
    background-color: var(--color-black);
    border: none;
-   }
+}
 
-.top-right-text a{
+.top-right-text a {
    text-decoration: none;
    color: var(--color-white);
    cursor: pointer;
@@ -112,21 +113,89 @@ input {
    font-weight: 400;
    line-height: 14.07px;
    font-size: 13px;
-} 
+}
 
 .top-right-text li:first-child::after {
    content: url(../img/range.svg);
    margin-left: 3px;
 }
 
-.top-right-pics{
+.top-right-pics {
    display: flex;
    align-items: center;
    justify-content: center;
    gap: 12px;
 }
+
 .top-right-pics button {
    background-color: var(--color-black);
    cursor: pointer;
    border: none;
-   }
+}
+
+.trymai-rybu {
+   background-color: var(--color-background-dark);
+   color: var(--color-white);
+   padding: 46px 0 49.9px 160px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.socials {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   gap: 13px;
+   position: absolute;
+   bottom: 45px; left: 160px;
+}
+
+.socials button {
+   background-color: var(--color-background-dark);
+   border: none;
+   cursor: pointer;
+}
+
+
+.central-part-trymai-rybu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  
+}
+
+.trymai-rybu-text {
+   margin: -49.98px 0 91px 0;
+   font-family: var(--font-Medium);
+   font-weight: 450;
+   overflow: hidden;
+   line-height: 34.62px;
+   font-size: 32px;
+   text-align: center;
+   max-width: 520px;
+}
+
+.our_range{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+}
+
+.our_range button{
+   background-color: var(--color-orange);
+   color: var(--color-white);
+   border: none;
+   border-radius: 9px;
+   padding: 13px 61px;
+   cursor: pointer;
+   text-decoration: none;
+   font-family: var(--font-Book);
+   font-weight: 400;
+   line-height: 21.64px;
+   font-size: 20px;
+}
