@@ -41,6 +41,7 @@
 
    .why {
       margin-top: 10px;
+      margin-bottom: 10px;
    }
 
    .title-why {
@@ -69,6 +70,19 @@
 
    }
 
+   .title-sale{
+      font-size: 20px;
+      margin-bottom: 12px;
+      max-width: 320px;
+   }
+
+   .banners{
+      flex-direction: column;
+   }
+
+   .sale{
+      margin-bottom: 10px;
+   }
 
 }
 
@@ -121,6 +135,7 @@
 
    .why {
       margin-top: 10px;
+      margin-bottom: 10px;
    }
 
    .title-why {
@@ -148,6 +163,22 @@
       color: white;
 
    }
+
+
+   .title-sale{
+      font-size: 20px;
+      margin-bottom: 12px;
+      max-width: 320px;
+   }
+
+   .banners{
+      flex-direction: column;
+   }
+
+   .sale{
+      margin-bottom: 10px;
+   }
+
 }
 
 }
