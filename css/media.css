@@ -10,31 +10,144 @@
       flex-direction: column;
       gap: 0;
    }
+
    .because {
       max-width: 320px;
    }
+
+   .because-text-main {
+      margin-bottom: 10px;
+   }
+
    .trymai-rybu {
       padding: 0 0 10px 0;
    }
+
    .our_range button {
       padding: 10px 15px;
       font-size: 15px;
-
    }
+
    .socials {
       left: 10px;
+      bottom: 10px;
    }
-   .trymai-rybu-text{
+
+   .trymai-rybu-text {
       margin-bottom: 30px;
-   font-family: var(--font-Medium);
-   /* font-weight: 300; */
-   /* line-height: 34.62px; */
-   font-size: 20px;
-   /* text-align: center;
-   max-width: 520px; */
+      font-family: var(--font-Medium);
+      font-size: 20px;
+   }
+
+   .why {
+      margin-top: 10px;
+   }
+
+   .title-why {
+      font-size: 20px;
+      margin-bottom: 12px;
+      max-width: 320px;
+   }
+
+   .top-right-text {
+      display: none;
+   }
+
+   .logo {
+      left: 0;
+   }
+
+   .search-container {
+      display: none;
+   }
+
+
+   .burger span {
+      display: contents;
+      content: "\2630";
+      color: white;
+
    }
 
 
 }
 
-@media screen and (max-width: 575px) {}
+@media screen and (max-width: 576px) {
+   .gallery-why {
+      flex-direction: column;
+      gap: 0;
+   }
+
+   .because {
+      max-width: 161px;
+   }
+
+   .because-text-main {
+      margin-bottom: 10px;
+   }
+
+   .trymai-rybu {
+      padding: 0 0 10px 0;
+   }
+
+   .our_range button {
+      padding: 10px 15px;
+      font-size: 15px;
+   }
+
+   .socials {
+      display: none;
+   }
+
+   .socials-white {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 13px;
+
+   }
+
+   .socials-white button {
+      border: none;
+      cursor: pointer;
+   }
+
+   .trymai-rybu-text {
+      margin-bottom: 30px;
+      font-family: var(--font-Medium);
+      font-size: 20px;
+   }
+
+   .why {
+      margin-top: 10px;
+   }
+
+   .title-why {
+      font-size: 20px;
+      margin-bottom: 12px;
+      max-width: 320px;
+   }
+
+   .top-right-text {
+      display: none;
+   }
+
+   .logo {
+      left: 0;
+   }
+
+   .search-container {
+      display: none;
+   }
+
+
+   .burger span {
+      display: contents;
+      content: "\2630";
+      color: white;
+
+   }
+}
+
+}

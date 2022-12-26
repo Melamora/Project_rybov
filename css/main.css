@@ -163,6 +163,11 @@ input {
    border: none;
 }
 
+.burger span {
+   content: "\2630";
+   display: none;
+}
+
 .trymai-rybu {
    background-color: var(--color-background-dark);
    color: var(--color-white);
@@ -244,8 +249,16 @@ input {
    align-items: center;
    justify-content: center;
    flex-direction: column;
-
+   position: relative;
 }
+
+.socials-white {
+   position: absolute;
+   top: 30px;
+   left: 10px;
+   display: none;
+}
+
 
 .title-why {
    max-width: 476px;
