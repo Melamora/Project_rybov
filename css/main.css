@@ -26,42 +26,42 @@ img {
 
 @font-face {
    font-family: 'Futura PT Book';
-   src: url(../fonts/futura/Futura\ Book\ font.ttf);
+   src: url(../fonts/Futura_fonts/FuturaBookC.woff);
    font-style: normal;
    font-weight: normal;
 }
 
 @font-face {
    font-family: 'Futura PT Cond Medium';
-   src: url(../fonts/futura/futura\ medium\ condensed\ bt.ttf);
+   src: url(../fonts/Futura_fonts/FuturaTSCondensed-Medium.woff);
    font-style: normal;
    font-weight: normal;
 }
 
 @font-face {
    font-family: 'Futura PT Demi';
-   src: url(../fonts/futura/futura-pt-demi.otf);
+   src: url(../fonts/Futura_fonts/FuturaDemiC.woff);
    font-style: normal;
    font-weight: normal;
 }
 
 @font-face {
    font-family: 'Futura PT Heavy';
-   src: url(../fonts/futura/Futura\ Heavy\ font.ttf);
+   src: url(../fonts/Futura_fonts/FuturaLT-Heavy.woff);
    font-style: normal;
    font-weight: normal;
 }
 
 @font-face {
    font-family: 'Futura PT Light';
-   src: url(../fonts/futura/Futura\ Light\ font.ttf);
+   src: url(../fonts/Futura_fonts/FuturaLightC.woff);
    font-style: normal;
    font-weight: normal;
 }
 
 @font-face {
    font-family: 'Futura PT Medium';
-   src: url(../fonts/futura/futura-pt-medium.otf);
+   src: url(../fonts/Futura_fonts/FuturaMediumC.woff);
    font-style: normal;
    font-weight: normal;
 }
@@ -207,10 +207,9 @@ input {
 }
 
 .trymai-rybu-text {
-   margin: -49.98px 0 91px 0;
+   margin-bottom: 91px;
    font-family: var(--font-Medium);
    font-weight: 450;
-   overflow: hidden;
    line-height: 34.62px;
    font-size: 32px;
    text-align: center;
@@ -266,7 +265,7 @@ input {
    justify-content: center;
 
    gap: 75px;
-   max-width: 996.6px;
+   max-width: 995px;
    margin-bottom: 64px;
 
 }
@@ -276,7 +275,8 @@ input {
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   flex-basis: 30%;
+   /* flex-basis: 30%; */
+   /* flex-shrink: 1; */
    margin: 0 auto;
 }
 
