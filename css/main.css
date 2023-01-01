@@ -356,7 +356,7 @@ input {
    align-items: center;
    margin-bottom: 64px;
    width: 100%;
-   
+
 }
 
 .title-assortment {
@@ -407,13 +407,13 @@ input {
    margin-bottom: 50px;
 }
 
-.item-header {
+.item-header-fish {
    max-width: 200px;
    width: 100%;
    margin-bottom: 6px;
 }
 
-.item-description {
+.item-description-fish {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -421,7 +421,7 @@ input {
    margin-bottom: 10px;
 }
 
-.item-description h4 {
+.item-description-fish h4 {
    font-weight: 400;
    font-size: 20px;
    line-height: 21.64px;
@@ -430,22 +430,22 @@ input {
    margin-bottom: 5px;
 }
 
-.item-description p {
+.item-description-fish p {
    font-weight: 400;
    font-size: 13px;
    line-height: 11.66px;
    text-align: center;
 }
 
-.item-bottom {
+.item-bottom-fish {
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: flex-start;
-flex-wrap: nowrap;
+   flex-wrap: nowrap;
 }
 
-.item-bottom h5 {
+.item-bottom-fish h5 {
    font-weight: 400;
    font-size: 13px;
    line-height: 14.07px;
@@ -456,7 +456,7 @@ flex-wrap: nowrap;
    min-width: 184px;
 }
 
-.nutrition-value {
+.nutrition-value-fish {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -470,7 +470,7 @@ flex-wrap: nowrap;
    padding: 8px 3px;
 }
 
-.nutrition-value li:nth-child(2) {
+.nutrition-value-fish li:nth-child(2) {
    padding: 0 8px;
    border-right: 1px solid var(--color-blue);
    border-left: 1px solid var(--color-blue);
@@ -495,18 +495,271 @@ flex-wrap: nowrap;
    max-width: 298px;
    width: 100%;
 }
-.button-wrap{
+
+.button-wrap-fish {
    display: flex;
    justify-content: flex-end;
    align-items: flex-end;
-   
+
    width: 100%;
    margin-bottom: 5px;
 }
 
 
 
+.seafood {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+}
+
+.title-seafood {
+   min-width: 278px;
+   font-family: var(--font-Medium);
+   font-weight: 450;
+   font-size: 32px;
+   line-height: 34.62px;
+   text-transform: uppercase;
+   margin-bottom: 22px;
+   border-bottom: 2px solid var(--color-black);
+}
+
+.gallery-seafood {
+   display: grid;
+   grid-template-columns: repeat(5, 200px);
+   column-gap: 30px;
+}
+
+.seafood-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   background-color: rgba(148, 148, 148, 0.15);
+   border-radius: 0 0 17px 17px;
+   border: none;
+   font-family: var(--font-Book);
+   margin-bottom: 50px;
+
+}
+
+.item-header-seafood {
+   max-width: 200px;
+   width: 100%;
+   margin-bottom: 6px;
+}
+
+.item-description-seafood {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.description-title-seafood {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 21.64px;
+   text-align: center;
+   text-transform: uppercase;
+   margin: 6px 6px 15px 8px;
+   /* margin-bottom: 10px; */
+}
+
+
+.item-bottom-seafood {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: nowrap;
+}
+
+.item-bottom-seafood h5 {
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 14.07px;
+   text-align: center;
+   color: var(--color-orange);
+   border-bottom: 1px solid var(--color-orange);
+   padding: 3px 8px;
+   min-width: 184px;
+}
+
+.nutrition-value-seafood {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: nowrap;
+   gap: 2px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 25px;
+   text-align: center;
+   margin-bottom: 8px;
+   padding: 8px 3px;
+}
+
+.nutrition-value-seafood li:nth-child(2) {
+   padding: 0 8px;
+   border-right: 1px solid var(--color-orange);
+   border-left: 1px solid var(--color-orange);
+
+}
+
+.seafood-button {
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--color-orange);
+   color: var(--color-white);
+   border: none;
+   border-radius: 9px;
+   padding: 13px 61px;
+   cursor: pointer;
+   font-family: var(--font-Book);
+   font-weight: 400;
+   line-height: 21.64px;
+   font-size: 20px;
+   max-width: 298px;
+   width: 100%;
+}
+
+.button-wrap-seafood {
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+
+   width: 100%;
+   margin-bottom: 5px;
+}
+
 .fishes-bottom img {
    margin-bottom: 68px;
    width: 100%;
+}
+
+.page-footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--color-black);
+   color: var(--color-white);
+   padding: 42px 160px 18px 160px;
+   margin: 0 auto;
+   height: 300px;
+   width: 100%;
+}
+
+.footer-top {
+   max-width: 655px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   gap: 50px;
+}
+
+.map-bottom {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   margin: 0 auto;
+   min-width: 655px;
+}
+
+.contact-us {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 9px;
+}
+
+.socials-bottom {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
+
+.socials-bottom button {
+   background-color: var(--color-black);
+   border: none;
+   cursor: pointer;
+}
+
+.e-mail {
+   font-family: var(--font-Light);
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 19.48px;
+}
+
+.numbers th:first-child {
+   font-family: var(--font-Medium);
+   font-weight: 450;
+   font-size: 18px;
+   line-height: 19.48px;
+   text-transform: uppercase;
+}
+
+.numbers th:last-child {
+   font-family: var(--font-Light);
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 19.48px;
+   text-transform: uppercase;
+}
+
+.map-bottom ul{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.map-bottom li {
+   font-family: var(--font-Light);
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 19.48px;
+   text-transform: uppercase;
+}
+
+
+.map-bottom li:first-child {
+   font-family: var(--font-Medium);
+   font-weight: 450;
+   font-size: 26px;
+   line-height: 28.13px;
+   text-transform: uppercase;
+}
+
+.address{
+   font-family: var(--font-Light);
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 19.48px;
+   text-align: end;
+   min-width: 159px;
+   width: 100%;
+}
+
+.copyright{
+   margin-top: 60px;
+   font-family: var(--font-Book);
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 14.07px;
+   text-align: center;
+   min-width: 159px;
+   width: 100%;
+   color: var(--color-black);
 }
