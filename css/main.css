@@ -130,12 +130,10 @@ input {
 
 }
 
-.top-right-text button {
-   background-color: var(--color-black);
-   border: none;
-}
 
 .top-right-text a {
+   background-color: var(--color-black);
+   border: none;
    text-decoration: none;
    color: var(--color-white);
    cursor: pointer;
@@ -157,7 +155,7 @@ input {
    gap: 12px;
 }
 
-.top-right-pics button {
+.top-right-pics a {
    background-color: var(--color-black);
    cursor: pointer;
    border: none;
@@ -225,10 +223,6 @@ input {
    display: flex;
    justify-content: center;
    align-items: center;
-   text-decoration: none;
-}
-
-.our_range button {
    background-color: var(--color-orange);
    color: var(--color-white);
    border: none;
@@ -240,6 +234,9 @@ input {
    font-weight: 400;
    line-height: 21.64px;
    font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .why {
@@ -317,7 +314,7 @@ input {
    height: 138px;
 }
 
-.sale{
+.sale {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -337,7 +334,7 @@ input {
    margin-bottom: 22px;
 }
 
-.banners{
+.banners {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -347,12 +344,169 @@ input {
    background-color: var(--color-background-dark);
 }
 
-.banners img{
+.banners img {
    max-width: 550px;
    width: 100%;
 }
 
-.fishes-bottom {
+.assortment {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 64px;
    width: 100%;
+   
+}
+
+.title-assortment {
+   max-width: 476px;
+   font-family: var(--font-Medium);
+   font-weight: 450;
+   font-size: 32px;
+   line-height: 34.62px;
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 22px;
+}
+
+.fish {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+}
+
+.title-fish {
+   min-width: 278px;
+   font-family: var(--font-Medium);
+   font-weight: 450;
+   font-size: 32px;
+   line-height: 34.62px;
+   text-transform: uppercase;
+   margin-bottom: 22px;
+   border-bottom: 2px solid var(--color-black);
+}
+
+.gallery-fish {
+   display: grid;
+   grid-template-columns: repeat(5, 200px);
+   column-gap: 30px;
+}
+
+.fish-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(148, 148, 148, 0.15);
+   border-radius: 0 0 17px 17px;
+   border: none;
+   font-family: var(--font-Book);
+   margin-bottom: 50px;
+}
+
+.item-header {
+   max-width: 200px;
+   width: 100%;
+   margin-bottom: 6px;
+}
+
+.item-description {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.item-description h4 {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 21.64px;
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 5px;
+}
+
+.item-description p {
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 11.66px;
+   text-align: center;
+}
+
+.item-bottom {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+flex-wrap: nowrap;
+}
+
+.item-bottom h5 {
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 14.07px;
+   text-align: center;
+   color: var(--color-blue);
+   border-bottom: 1px solid var(--color-blue);
+   padding: 3px 8px;
+   min-width: 184px;
+}
+
+.nutrition-value {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: nowrap;
+   gap: 2px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 25px;
+   text-align: center;
+   margin-bottom: 8px;
+   padding: 8px 3px;
+}
+
+.nutrition-value li:nth-child(2) {
+   padding: 0 8px;
+   border-right: 1px solid var(--color-blue);
+   border-left: 1px solid var(--color-blue);
+
+}
+
+.fish-button {
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--color-blue);
+   color: var(--color-white);
+   border: none;
+   border-radius: 9px;
+   padding: 13px 61px;
+   cursor: pointer;
+   font-family: var(--font-Book);
+   font-weight: 400;
+   line-height: 21.64px;
+   font-size: 20px;
+   max-width: 298px;
+   width: 100%;
+}
+.button-wrap{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   
+   width: 100%;
+   margin-bottom: 5px;
+}
+
+
+
+.fishes-bottom img {
    margin-bottom: 68px;
+   width: 100%;
 }
