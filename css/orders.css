@@ -166,6 +166,164 @@ input {
    display: none;
 }
 
+.koshyk-pics {
+   background-color: var(--color-black);
+   color: var(--color-white);
+   margin-top: 90px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   min-height: 604px;
+   height: 100%;
+   width: 100%;
+}
+.koshyk{
+   z-index: 1;
+   position: absolute;
+   top: 35px;
+   max-width: 236px;
+   width: 100%;
+}
+.ryba_koshyk{
+   position: absolute;
+   top: 63px;
+   max-width: 862px;
+   width: 100%;
+}
+
+.gallery-wrapper {
+   display: grid;
+   grid-template-columns: repeat(5, 200px);
+   grid-template-rows: repeat(2, 326px);
+   grid-column-gap: 30px;
+   grid-row-gap: 55px;
+   align-items: center;
+   grid-auto-flow: column;
+   max-width: 1120px;
+   width: 100%;
+   margin: 62px 160px 45px 160px;
+   
+}
+
+.fish-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: rgba(148, 148, 148, 0.15);
+   border-radius: 0 0 17px 17px;
+   border: none;
+   font-family: var(--font-Book);
+   margin-bottom: 50px;
+   min-height: 326px;
+}
+
+.item-header-fish {
+   max-width: 200px;
+   width: 100%;
+   margin-bottom: 6px;
+}
+
+.item-description-fish {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.item-description-fish h4 {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 21.64px;
+   text-align: center;
+   text-transform: uppercase;
+   margin: 0 6px 5px 8px;
+}
+
+
+.item-bottom-fish {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   flex-wrap: nowrap;
+}
+
+.item-bottom-fish h5 {
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 14.07px;
+   text-align: center;
+   color: var(--color-black);
+   border-bottom: 1px solid var(--color-black);
+   padding: 3px 8px;
+   min-width: 184px;
+}
+
+.nutrition-value-fish {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: nowrap;
+   gap: 2px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 25px;
+   text-align: center;
+   margin-bottom: 8px;
+   padding: 8px 3px;
+}
+
+.nutrition-value-fish li:nth-child(2) {
+   padding: 0 8px;
+   border-right: 1px solid var(--color-black);
+   border-left: 1px solid var(--color-black);
+
+}
+
+.zamova-button {
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--color-orange);
+   color: var(--color-white);
+   border: none;
+   border-radius: 9px;
+   padding: 12px 67px;
+   cursor: pointer;
+   font-family: var(--font-Book);
+   font-weight: 400;
+   line-height: 15.15px;
+   font-size: 14px;
+   max-width: 284px;
+   width: 100%;
+   text-transform: uppercase;
+}
+
+.button-wrap-zamova {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   margin-bottom: 87px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .page-footer {
    display: flex;
