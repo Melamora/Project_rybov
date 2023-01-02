@@ -3,6 +3,21 @@
       padding-left: 10px;
       padding-right: 10px;
    }
+
+   
+   .footer-top {
+      flex-direction: column;
+   }
+
+   .footer-top {
+      flex-direction: column;
+   }
+
+   .map-bottom {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 900px) {
@@ -53,5 +68,22 @@
 
    }
 
+   .footer-top {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .map-bottom {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+   }
+
+   .page-footer {
+      padding: 20px 50px 10px 50px;
+   }
 
 }

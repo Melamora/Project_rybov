@@ -176,13 +176,13 @@ input {
    color: var(--color-white);
    padding: 42px 160px 18px 160px;
    margin: 0 auto;
-   height: 300px;
+   min-height: 300px;
    width: 100%;
 }
 
 .footer-top {
-   max-width: 655px;
-   width: 100%;
+   /* max-width: 655px; */
+   /* width: 100%; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -192,11 +192,15 @@ input {
 
 .map-bottom {
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: flex-start;
+   flex-wrap: nowrap;
+   gap: 12px;
    margin: 0 auto;
-   min-width: 655px;
+   /* min-width: 655px; */
+   width: 100%;
 }
+
 
 .contact-us {
    display: flex;
@@ -247,6 +251,8 @@ input {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   flex-wrap: nowrap;
+   align-content: center;
 }
 
 .map-bottom li {
@@ -255,6 +261,7 @@ input {
    font-size: 18px;
    line-height: 19.48px;
    text-transform: uppercase;
+   text-align: center;
 }
 
 
@@ -272,7 +279,7 @@ input {
    font-size: 18px;
    line-height: 19.48px;
    text-align: end;
-   min-width: 159px;
+   max-width: 159px;
    width: 100%;
 }
 

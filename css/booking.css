@@ -167,6 +167,101 @@ input {
 }
 
 
+.place_an_order_pics {
+   background-color: var(--color-black);
+   color: var(--color-white);
+   margin-top: 90px;
+   margin-bottom: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   min-height: 604px;
+   height: 100%;
+   width: 100%;
+}
+
+.place_an_order {
+   z-index: 1;
+   position: absolute;
+   top: 20px;
+   max-width: 237px;
+   width: 100%;
+}
+
+.ryba_place_an_order {
+   position: absolute;
+   top: 78px;
+   max-width: 1358px;
+   width: 100%;
+}
+
+.how_to{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+   background-color: rgba(148, 148, 148, 0.15);
+   border: none;
+   border-radius: 17px;
+   max-width: 1120px;
+   width: 100%;
+   padding: 30px 94px 52px 95px;
+   margin: 0 auto;
+   margin-bottom: 64px;
+}
+
+.how_to_title{
+   font-family: var(--font-Medium);
+   font-weight: 450;
+   font-size: 32px;
+   line-height: 34.62px;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.how_to_text{
+   font-family: var(--font-Light);
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 19.84px;
+   text-align: justify;
+}
+
+.title_item_to_order{
+min-width: 278px;
+   font-family: var(--font-Medium);
+   font-weight: 450;
+   font-size: 32px;
+   line-height: 34.62px;
+   text-transform: uppercase;
+   margin-bottom: 22px;
+   border-bottom: 2px solid var(--color-black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .page-footer {
    display: flex;
    flex-direction: column;
@@ -176,13 +271,13 @@ input {
    color: var(--color-white);
    padding: 42px 160px 18px 160px;
    margin: 0 auto;
-   height: 300px;
+   min-height: 300px;
    width: 100%;
 }
 
 .footer-top {
-   max-width: 655px;
-   width: 100%;
+   /* max-width: 655px; */
+   /* width: 100%; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -192,11 +287,15 @@ input {
 
 .map-bottom {
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: flex-start;
+   flex-wrap: nowrap;
+   gap: 12px;
    margin: 0 auto;
-   min-width: 655px;
+   /* min-width: 655px; */
+   width: 100%;
 }
+
 
 .contact-us {
    display: flex;
@@ -247,6 +346,8 @@ input {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   flex-wrap: nowrap;
+   align-content: center;
 }
 
 .map-bottom li {
@@ -255,6 +356,7 @@ input {
    font-size: 18px;
    line-height: 19.48px;
    text-transform: uppercase;
+   text-align: center;
 }
 
 
@@ -272,7 +374,7 @@ input {
    font-size: 18px;
    line-height: 19.48px;
    text-align: end;
-   min-width: 159px;
+   max-width: 159px;
    width: 100%;
 }
 

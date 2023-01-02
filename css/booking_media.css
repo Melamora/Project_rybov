@@ -3,10 +3,20 @@
       padding-left: 10px;
       padding-right: 10px;
    }
+
+   .place_an_order_pics{
+      min-height: 500px;
+      height: 100%;
+   }
+
+   .footer-top {
+      flex-direction: column;
+   }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 900px) {
-   
+
 
    .top-right-text {
       display: none;
@@ -29,10 +39,34 @@
 
    }
 
+   .how_to {
+      padding: 15px 20px 15px 20px;
+   }
+   .place_an_order_pics{
+      min-height: 200px;
+      margin-bottom: 30px;
+   }
+   .ryba_place_an_order{
+      display: none;
+   }
+
+   .place_an_order {
+      top: 10px;
+   }
+
+   .footer-top {
+      flex-direction: column;
+   }
+
+   .map-bottom {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
 }
 
 @media screen and (max-width: 576px) {
-  
+
    .top-right-text {
       display: none;
    }
@@ -52,6 +86,34 @@
       color: white;
 
    }
+   .how_to {
+      padding: 15px 20px 15px 20px;
+   }
 
+   .ryba_place_an_order{
+      display: none;
+   }
 
+   .place_an_order_pics{
+      min-height: 200px;
+      margin-bottom: 20px;
+   }
+   
+   .footer-top {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .map-bottom {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+   }
+
+   .page-footer {
+      padding: 20px 50px 10px 50px;
+   }
 }
