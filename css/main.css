@@ -354,9 +354,10 @@ input {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   align-content: center;
    margin-bottom: 64px;
+   /* max-width: 1120px; */
    width: 100%;
-
 }
 
 .title-assortment {
@@ -373,9 +374,10 @@ input {
 .fish {
    display: flex;
    flex-direction: column;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: flex-start;
-
+   max-width: 1120px;
+   width: 100%;
 }
 
 .title-fish {
@@ -392,7 +394,9 @@ input {
 .gallery-fish {
    display: grid;
    grid-template-columns: repeat(5, 200px);
-   column-gap: 30px;
+   grid-column-gap: 30px;
+   align-items: center;
+   grid-auto-flow: column;
 }
 
 .fish-item {
@@ -400,6 +404,7 @@ input {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   flex-wrap: wrap;
    background-color: rgba(148, 148, 148, 0.15);
    border-radius: 0 0 17px 17px;
    border: none;
@@ -530,19 +535,22 @@ input {
    display: grid;
    grid-template-columns: repeat(5, 200px);
    column-gap: 30px;
+   align-items: center;
 }
 
 .seafood-item {
    display: flex;
    flex-direction: column;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
+   flex-wrap: wrap;
    background-color: rgba(148, 148, 148, 0.15);
    border-radius: 0 0 17px 17px;
    border: none;
    font-family: var(--font-Book);
    margin-bottom: 50px;
-
+   max-width: 200px;
+   width: 100%;
 }
 
 .item-header-seafood {
@@ -559,14 +567,14 @@ input {
    margin: 0 auto;
 }
 
-.description-title-seafood {
+.description-title-seafood h4 {
    font-weight: 400;
    font-size: 20px;
    line-height: 21.64px;
    text-align: center;
    text-transform: uppercase;
    margin: 6px 6px 15px 8px;
-   /* margin-bottom: 10px; */
+   margin-bottom: 10px;
 }
 
 
@@ -718,7 +726,7 @@ input {
    text-transform: uppercase;
 }
 
-.map-bottom ul{
+.map-bottom ul {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -742,7 +750,7 @@ input {
    text-transform: uppercase;
 }
 
-.address{
+.address {
    font-family: var(--font-Light);
    font-weight: 300;
    font-size: 18px;
@@ -752,7 +760,7 @@ input {
    width: 100%;
 }
 
-.copyright{
+.copyright {
    margin-top: 60px;
    font-family: var(--font-Book);
    font-weight: 400;
