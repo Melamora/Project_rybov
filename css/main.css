@@ -402,7 +402,7 @@ input {
 .fish-item {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
    background-color: rgba(148, 148, 148, 0.15);
@@ -410,6 +410,7 @@ input {
    border: none;
    font-family: var(--font-Book);
    margin-bottom: 50px;
+   min-height: 326px;
 }
 
 .item-header-fish {
@@ -541,7 +542,7 @@ input {
 .seafood-item {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
    background-color: rgba(148, 148, 148, 0.15);
@@ -551,6 +552,7 @@ input {
    margin-bottom: 50px;
    max-width: 200px;
    width: 100%;
+   min-height: 326px;
 }
 
 .item-header-seafood {

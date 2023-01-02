@@ -170,6 +170,7 @@ input {
    background-color: var(--color-black);
    color: var(--color-white);
    margin-top: 90px;
+   margin-bottom: 62px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -178,14 +179,16 @@ input {
    height: 100%;
    width: 100%;
 }
-.koshyk{
+
+.koshyk {
    z-index: 1;
    position: absolute;
    top: 35px;
    max-width: 236px;
    width: 100%;
 }
-.ryba_koshyk{
+
+.ryba_koshyk {
    position: absolute;
    top: 63px;
    max-width: 862px;
@@ -202,8 +205,7 @@ input {
    grid-auto-flow: column;
    max-width: 1120px;
    width: 100%;
-   margin: 62px 160px 45px 160px;
-   
+   margin: 0 auto;
 }
 
 .fish-item {
