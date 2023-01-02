@@ -197,12 +197,10 @@ input {
 
 .gallery-wrapper {
    display: grid;
-   grid-template-columns: repeat(5, 200px);
-   grid-template-rows: repeat(2, 326px);
+   grid-template-columns: repeat(auto-fill, 200px);
    grid-column-gap: 30px;
    grid-row-gap: 55px;
    align-items: center;
-   grid-auto-flow: column;
    max-width: 1120px;
    width: 100%;
    margin: 0 auto;

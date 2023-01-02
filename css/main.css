@@ -381,7 +381,8 @@ input {
 }
 
 .title-fish {
-   min-width: 278px;
+   max-width: 278px;
+   width: 100%;
    font-family: var(--font-Medium);
    font-weight: 450;
    font-size: 32px;
@@ -391,12 +392,16 @@ input {
    border-bottom: 2px solid var(--color-black);
 }
 
+
+
 .gallery-fish {
    display: grid;
-   grid-template-columns: repeat(5, 200px);
+   grid-template-columns: repeat(auto-fill, 200px);
    grid-column-gap: 30px;
    align-items: center;
-   grid-auto-flow: column;
+   align-content: center;
+   justify-content: center;
+   width: 100%;
 }
 
 .fish-item {
@@ -427,13 +432,14 @@ input {
    margin-bottom: 10px;
 }
 
-.item-description-fish h4 {
+ h4 {
    font-weight: 400;
    font-size: 20px;
    line-height: 21.64px;
    text-align: center;
    text-transform: uppercase;
    margin-bottom: 5px;
+   min-height: 45px;
 }
 
 .item-description-fish p {
@@ -518,9 +524,10 @@ input {
    flex-direction: column;
    justify-content: flex-start;
    align-items: flex-start;
-
+   max-width: 1120px;
+   width: 100%;
 }
-
+/* 
 .title-seafood {
    min-width: 278px;
    font-family: var(--font-Medium);
@@ -530,14 +537,15 @@ input {
    text-transform: uppercase;
    margin-bottom: 22px;
    border-bottom: 2px solid var(--color-black);
-}
+} */
 
-.gallery-seafood {
+/* .gallery-seafood {
    display: grid;
-   grid-template-columns: repeat(5, 200px);
-   column-gap: 30px;
+   grid-template-columns: repeat(auto-fill, 200px);
+   grid-column-gap: 30px;
    align-items: center;
-}
+   width: 100%;
+} */
 
 .seafood-item {
    display: flex;
@@ -569,7 +577,7 @@ input {
    margin: 0 auto;
 }
 
-.description-title-seafood h4 {
+/* .description-title-seafood h4 {
    font-weight: 400;
    font-size: 20px;
    line-height: 21.64px;
@@ -577,7 +585,8 @@ input {
    text-transform: uppercase;
    margin: 6px 6px 15px 8px;
    margin-bottom: 10px;
-}
+   min-height: 45px;
+} */
 
 
 .item-bottom-seafood {
@@ -651,6 +660,7 @@ input {
 .fishes-bottom img {
    margin-bottom: 68px;
    width: 100%;
+   margin:0 auto;
 }
 
 .page-footer {

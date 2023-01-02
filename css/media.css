@@ -4,9 +4,24 @@
       padding-right: 10px;
    }
 
-   
+
    .footer-top {
       flex-direction: column;
+   }
+
+   .assortment {
+      padding: 0 50px;
+      align-items: center;
+      justify-content: center;
+      
+   }
+
+   .gallery-fish {
+      grid-column-gap: 10px;
+      padding: 0 30px;
+   }
+   .fishes-bottom{
+      margin-bottom: 0;
    }
 
 }
@@ -93,6 +108,7 @@
    .fishes-bottom {
       margin-bottom: 10px;
    }
+
    .footer-top {
       flex-direction: column;
    }
@@ -102,6 +118,58 @@
       justify-content: center;
       align-items: center;
    }
+
+   .assortment {
+      padding: 0 15px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+   }
+
+
+   .gallery-fish {
+      grid-column-gap: 10px;
+      padding: 0 30px;
+   }
+
+   .assortment {
+      padding: 0 15px;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .title-fish {
+      font-size: 20px;
+      margin-bottom: 15px;
+   }
+
+   .title-assortment {
+      font-size: 25px;
+      margin-bottom: 5px;
+   }
+
+   .fish-button {
+      padding: 13px 0;
+      font-size: 15px;
+   }
+
+   .button-wrap-fish {
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+
+   .seafood-button {
+      padding: 13px 0;
+      font-size: 15px;
+   }
+
+   .button-wrap-seafood{
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -218,6 +286,64 @@
 
    .page-footer {
       padding: 20px 50px 10px 50px;
+   }
+
+   .assortment {
+      padding: 0 15px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2px;
+   }
+
+   .fish {
+
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+   }
+
+
+   .gallery-fish {
+      grid-column-gap: 10px;
+      padding: 0 30px;
+   }
+
+   .title-fish {
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-bottom: none;
+      text-align: center;
+   }
+
+   .title-assortment {
+      font-size: 25px;
+      margin-bottom: 5px;
+   }
+
+   .fish-button {
+      padding: 13px 0;
+      font-size: 15px;
+   }
+
+   .button-wrap-fish {
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+
+   .seafood-button {
+      padding: 13px 0;
+      font-size: 15px;
+   }
+
+   .button-wrap-seafood{
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+   }
+   .fishes-bottom{
+      margin-bottom: 0;
    }
 
 }
