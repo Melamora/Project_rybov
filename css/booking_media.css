@@ -130,10 +130,23 @@
    }
 
    .card_red {
-      position: relative;
+      /* position: relative; */
       margin-top: 10px;
-      top: 0;
-      left: 0;
+      /* top: 0;
+      left: 0; */
+      max-width: 349px;
+   }
+
+   .card_blue {
+      left: 40px;
+      max-width: 349px;
+
+   }
+
+   .cards {
+      display: flex;
+      justify-content: center;
+      min-height: 216px;
    }
 
 
@@ -274,5 +287,19 @@
       margin-top: 10px;
       top: 0;
       left: 0;
+      max-width: 349px;
    }
+.card_blue{
+   position: unset;
+   max-width: 349px;
+}
+
+.cards{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
 }

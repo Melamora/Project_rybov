@@ -488,7 +488,6 @@ input {
    flex-wrap: nowrap;
    gap: 35px;
    justify-content: flex-start;
-   align-items: center;
    gap: 124px;
 }
 
@@ -522,7 +521,7 @@ input {
    position: absolute;
    left: 159px;
    bottom: -28px;
-   z-index: -1;
+   z-index: 1;
 }
 
 .black_line {
@@ -570,7 +569,8 @@ input {
    background-color: var(--color-blue);
    border: 1px solid var(--color-black);
    border-radius: 7px;
-
+   position: absolute;
+   z-index: 2;
 }
 
 .blue input {
