@@ -4,13 +4,27 @@
       padding-right: 10px;
    }
 
-   .place_an_order_pics{
+   .place_an_order_pics {
       min-height: 500px;
       height: 100%;
    }
 
    .footer-top {
       flex-direction: column;
+   }
+
+   .how_to {
+      margin-bottom: 20px;
+   }
+
+   .title_item_to_order {
+      border: none;
+      text-align: center;
+   }
+
+   .items_to_order {
+      padding: 0 30px;
+      align-items: center;
    }
 
 }
@@ -42,11 +56,13 @@
    .how_to {
       padding: 15px 20px 15px 20px;
    }
-   .place_an_order_pics{
+
+   .place_an_order_pics {
       min-height: 200px;
       margin-bottom: 30px;
    }
-   .ryba_place_an_order{
+
+   .ryba_place_an_order {
       display: none;
    }
 
@@ -62,6 +78,17 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+   }
+
+   .items_to_order {
+      padding: 10px 30px;
+      align-items: center;
+   }
+
+   .title_item_to_order {
+      margin-bottom: 10px;
+      border: none;
+      text-align: center;
    }
 }
 
@@ -86,19 +113,30 @@
       color: white;
 
    }
+
    .how_to {
       padding: 15px 20px 15px 20px;
+      margin-bottom: 10px;
    }
 
-   .ryba_place_an_order{
+   .how_to_title {
+      font-size: 20px;
+   }
+
+   .how_to_text {
+      font-size: 15px;
+      line-height: 15px;
+   }
+
+   .ryba_place_an_order {
       display: none;
    }
 
-   .place_an_order_pics{
+   .place_an_order_pics {
       min-height: 200px;
       margin-bottom: 20px;
    }
-   
+
    .footer-top {
       flex-direction: column;
       justify-content: center;
@@ -115,5 +153,17 @@
 
    .page-footer {
       padding: 20px 50px 10px 50px;
+   }
+
+   .items_to_order {
+      padding: 0 30px;
+      align-items: center;
+   }
+
+   .title_item_to_order {
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-bottom: none;
+      text-align: center;
    }
 }

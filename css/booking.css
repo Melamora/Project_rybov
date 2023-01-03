@@ -196,7 +196,7 @@ input {
    width: 100%;
 }
 
-.how_to{
+.how_to {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -212,7 +212,7 @@ input {
    margin-bottom: 64px;
 }
 
-.how_to_title{
+.how_to_title {
    font-family: var(--font-Medium);
    font-weight: 450;
    font-size: 32px;
@@ -221,7 +221,7 @@ input {
    text-align: center;
 }
 
-.how_to_text{
+.how_to_text {
    font-family: var(--font-Light);
    font-weight: 300;
    font-size: 20px;
@@ -229,8 +229,20 @@ input {
    text-align: justify;
 }
 
-.title_item_to_order{
-min-width: 278px;
+.items_to_order{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   max-width: 1120px;
+   width: 100%;
+   
+   margin: 0 auto;
+}
+
+.title_item_to_order {
+   max-width: 278px;
+   width: 100%;
    font-family: var(--font-Medium);
    font-weight: 450;
    font-size: 32px;
@@ -238,6 +250,17 @@ min-width: 278px;
    text-transform: uppercase;
    margin-bottom: 22px;
    border-bottom: 2px solid var(--color-black);
+}
+
+.gallery_items_to_order{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 200px);
+   grid-gap: 30px;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   width: 100%;
+   margin-bottom: 49px;
 }
 
 
