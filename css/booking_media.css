@@ -90,6 +90,29 @@
       border: none;
       text-align: center;
    }
+
+   .main_conditions {
+      flex-direction: column;
+      gap: 15px;
+   }
+
+   .choose_dates {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .time {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .calendar_small {
+      display: contents;
+   }
+
+   .calendar {
+      display: none;
+   }
 }
 
 @media screen and (max-width: 576px) {
@@ -166,4 +189,43 @@
       border-bottom: none;
       text-align: center;
    }
-}
+
+   .main_conditions {
+      flex-direction: column;
+      gap: 15px;
+   }
+
+   .choose_dates {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .time {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .calendar_small {
+      display: contents;
+   }
+
+   .calendar {
+      display: none;
+   }
+
+   .tittle_conditions {
+      font-size: 25px;
+      line-height: 25px;
+   }
+
+   .time input {
+      width: 246px;
+   }
+
+   .sum {
+      padding: 10px 20px;
+   }
+
+   .end-sum-number {
+      font-size: 30px;
+   }

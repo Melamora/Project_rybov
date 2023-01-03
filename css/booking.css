@@ -229,14 +229,14 @@ input {
    text-align: justify;
 }
 
-.items_to_order{
+.items_to_order {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
    max-width: 1120px;
    width: 100%;
-   
+
    margin: 0 auto;
 }
 
@@ -252,7 +252,7 @@ input {
    border-bottom: 2px solid var(--color-black);
 }
 
-.gallery_items_to_order{
+.gallery_items_to_order {
    display: grid;
    grid-template-columns: repeat(auto-fill, 200px);
    grid-gap: 30px;
@@ -263,12 +263,198 @@ input {
    margin-bottom: 49px;
 }
 
+.conditions {
+   background-color: rgba(148, 148, 148, 0.15);
+   border: none;
+   border-radius: 17px;
+   max-width: 1120px;
+   width: 100%;
+   padding: 26px 95px 33px 93px;
+   margin: 0 auto;
+   margin-bottom: 29px;
+   font-family: var(--font-Medium);
+}
 
+.tittle_conditions {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   font-weight: 450;
+   font-size: 32px;
+   line-height: 34.62px;
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 3px;
+}
 
+.choose_dates {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-wrap: nowrap;
+   margin-bottom: 6px;
+   font-weight: 450;
+   font-size: 20px;
+   line-height: 21.64px;
+}
 
+.main_conditions{
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 35px;
+   justify-content: space-between;
+   align-items: center;
+}
 
+.calendar {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   max-width: 551px;
+   width: 100%;
+   min-height: 315px;
+   height: 100%;
+   background-color: var(--color-white);
+   border-radius: 11px;
+   padding: 10.42px 50.62px 24.32px 52.06px;
+}
 
+.month_calendar {
+   font-weight: 450;
+   font-size: 24px;
+   line-height: 25.97px;
+   text-align: center;
+   text-transform: uppercase;
+   margin: 10px;
 
+}
+
+.month_calendar::after {
+   content: url(../img/vector_calendar.svg);
+   margin-left: 15px;
+}
+
+.calender_days {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 57.85px);
+   grid-gap: 7.23px;
+   max-width: 551px;
+   width: 100%;
+   max-height: 315px;
+   height: 100%;
+   font-family: var(--font-Book);
+}
+
+.day {
+   width: 57.85px;
+   height: 38.22px;
+   background-color: rgba(148, 148, 148, 0.15);
+   border-radius: 4px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 19.84px;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 9.11px 13.02px 9.11px 11.57px;
+}
+
+.day_dark {
+   width: 57.85px;
+   height: 38.22px;
+   background-color: rgba(175, 175, 175, 0.5);
+   color: rgba(30, 30, 30, 0.5);
+   border-radius: 4px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 19.84px;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 9.11px 13.02px 9.11px 11.57px;
+}
+
+.right-part_conditions{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   align-content: flex-start;
+   flex-wrap: nowrap;
+   gap: 29px;
+   justify-content: center;
+   align-items: center;
+}
+
+.time {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-wrap: nowrap;
+   gap: 6px;
+   font-weight: 450;
+   font-size: 20px;
+   line-height: 21.64px;
+}
+
+.time input{
+   width: 346px;
+   background-color: var(--color-white);
+   color: var(--color-background-dark);
+   height: 45px;
+   border: none;
+   border-radius: 11px;
+}
+
+.sum{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   max-width: 346px;
+   width: 100%;
+   background-color: var(--color-black);
+   color: var(--color-white);
+   border: none;
+   border-radius: 11px;
+   padding: 13.5px 75.5px;
+}
+
+.end-sum{
+   font-weight: 450;
+   font-size: 20px;
+   line-height: 21.64px;
+}
+
+.end-sum-number{
+   font-family: var(--font-Heavy);
+   font-weight: 600;
+   font-size: 57px;
+   line-height: 61.67px;
+   
+}
+
+.calendar_small{
+   display: none;
+}
+ .calendar_small input{
+   width: 300px;
+   background-color: var(--color-white);
+   color: var(--color-background-dark);
+   height: 45px;
+   border: none;
+   border-radius: 11px;
+   font-family: var(--font-Medium);
+   font-weight: 450;
+    font-size: 20px;
+    line-height: 21.64px;
+   padding: 5px 15px;
+   border: none;
+ }
 
 
 
