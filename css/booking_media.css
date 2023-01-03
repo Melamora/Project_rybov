@@ -113,6 +113,30 @@
    .calendar {
       display: none;
    }
+
+   .main_payment {
+      flex-direction: column;
+      justify-content: space-evenly;
+      gap: 20px;
+   }
+
+   .payment {
+      padding: 26px;
+   }
+
+   .payment_methods {
+      flex-direction: row;
+
+   }
+
+   .card_red {
+      position: relative;
+      margin-top: 10px;
+      top: 0;
+      left: 0;
+   }
+
+
 }
 
 @media screen and (max-width: 576px) {
@@ -229,3 +253,26 @@
    .end-sum-number {
       font-size: 30px;
    }
+
+   .main_payment {
+      flex-direction: column;
+      justify-content: space-evenly;
+      gap: 20px;
+   }
+
+   .payment {
+      padding: 26px;
+   }
+
+   .payment_methods {
+      flex-direction: column;
+
+   }
+
+   .card_red {
+      position: relative;
+      margin-top: 10px;
+      top: 0;
+      left: 0;
+   }
+}

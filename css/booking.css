@@ -300,7 +300,7 @@ input {
    line-height: 21.64px;
 }
 
-.main_conditions{
+.main_conditions {
    display: flex;
    flex-wrap: nowrap;
    gap: 35px;
@@ -376,7 +376,7 @@ input {
    padding: 9.11px 13.02px 9.11px 11.57px;
 }
 
-.right-part_conditions{
+.right-part_conditions {
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -400,7 +400,7 @@ input {
    line-height: 21.64px;
 }
 
-.time input{
+.time input {
    width: 346px;
    background-color: var(--color-white);
    color: var(--color-background-dark);
@@ -409,7 +409,7 @@ input {
    border-radius: 11px;
 }
 
-.sum{
+.sum {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -424,24 +424,25 @@ input {
    padding: 13.5px 75.5px;
 }
 
-.end-sum{
+.end-sum {
    font-weight: 450;
    font-size: 20px;
    line-height: 21.64px;
 }
 
-.end-sum-number{
+.end-sum-number {
    font-family: var(--font-Heavy);
    font-weight: 600;
    font-size: 57px;
    line-height: 61.67px;
-   
+
 }
 
-.calendar_small{
+.calendar_small {
    display: none;
 }
- .calendar_small input{
+
+.calendar_small input {
    width: 300px;
    background-color: var(--color-white);
    color: var(--color-background-dark);
@@ -450,11 +451,273 @@ input {
    border-radius: 11px;
    font-family: var(--font-Medium);
    font-weight: 450;
-    font-size: 20px;
-    line-height: 21.64px;
+   font-size: 20px;
+   line-height: 21.64px;
    padding: 5px 15px;
    border: none;
- }
+}
+
+.payment {
+   background-color: rgba(148, 148, 148, 0.15);
+   border: none;
+   border-radius: 17px;
+   max-width: 1120px;
+   width: 100%;
+   padding: 26px 0 28px 95px;
+   margin: 0 auto;
+   margin-bottom: 29px;
+   font-family: var(--font-Medium);
+}
+
+.tittle_payment {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   font-weight: 450;
+   font-size: 32px;
+   line-height: 34.62px;
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 22px;
+}
+
+.main_payment {
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 35px;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 124px;
+}
+
+.payment_methods {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   gap: 12.27px;
+}
+
+.cards {
+   position: relative;
+   margin-bottom: 28px;
+}
+
+.card_red {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   min-width: 349px;
+   width: 100%;
+   min-height: 216px;
+   height: 100%;
+   padding: 30px 0;
+   background-color: var(--color-orange);
+   border: 1px solid var(--color-black);
+   border-radius: 7px;
+   position: absolute;
+   left: 159px;
+   bottom: -28px;
+   z-index: -1;
+}
+
+.black_line {
+   min-width: 349px;
+   min-height: 38px;
+   border: none;
+   background-color: var(--color-black);
+}
+
+.red_card_number {
+   font-family: var(--font-Book);
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 14.07px;
+   margin: 20px 51px 3px 0;
+}
+
+.red input {
+   width: 55px;
+   background-color: var(--color-white);
+   color: var(--color-black);
+   height: 27px;
+   border: none;
+   border-radius: 3px;
+   font-family: var(--font-Light);
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 15.87px;
+   padding: 6px 14px;
+   border: none;
+   text-transform: uppercase;
+   z-index: 2;
+}
+
+
+
+.card_blue {
+   display: flex;
+   flex-direction: column;
+   min-width: 349px;
+   width: 100%;
+   min-height: 216px;
+   height: 100%;
+   padding: 19px 17px 0 17px;
+   background-color: var(--color-blue);
+   border: 1px solid var(--color-black);
+   border-radius: 7px;
+
+}
+
+.blue input {
+   width: 266px;
+   background-color: var(--color-white);
+   color: var(--color-black);
+   height: 27px;
+   border: none;
+   border-radius: 3px;
+   font-family: var(--font-Light);
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 15.87px;
+   padding: 6px 14px;
+   border: none;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+}
+
+.blue h5 {
+   font-family: var(--font-Book);
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 14.07px;
+   margin-bottom: 4px;
+
+}
+
+.card_validity_date {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 7px;
+}
+
+.card_validity_date input {
+   width: 35px;
+   height: 27px;
+   padding: 5px;
+   text-align: center;
+}
+
+
+.zamova-button {
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--color-orange);
+   color: var(--color-white);
+   border: none;
+   border-radius: 9px;
+   padding: 12px 67px;
+   cursor: pointer;
+   font-family: var(--font-Book);
+   font-weight: 400;
+   line-height: 15.15px;
+   font-size: 14px;
+   max-width: 284px;
+   width: 100%;
+   text-transform: uppercase;
+   position: relative;
+}
+
+.button-wrap-zamova {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+   margin-bottom: 87px;
+}
+
+
+
+
+
+
+
+#modal {
+   display: none;
+   background-color: rgba(0, 0, 0, 0.8);
+   position: fixed;
+   inset: 0;
+   z-index: 2;
+   align-items: center;
+   justify-content: center;
+}
+
+.modal-content {
+
+   padding: 16px;
+   background-color: transparent;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.modal-content img {
+   border-radius: 11px;
+   max-width: 508px;
+   width: 100%;
+   max-height: 528px;
+   height: 100%;
+}
+
+.modal-content a {
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--color-orange);
+   color: var(--color-white);
+   border: none;
+   border-radius: 9px;
+   padding: 12px 67px;
+   cursor: pointer;
+   font-family: var(--font-Book);
+   font-weight: 400;
+   line-height: 15.15px;
+   font-size: 14px;
+   max-width: 284px;
+   width: 100%;
+   text-transform: uppercase;
+   margin-top: 20px;
+}
+
+#modal:target {
+   display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

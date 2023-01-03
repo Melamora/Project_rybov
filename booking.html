@@ -53,7 +53,6 @@
             даныя для аплаты замовы. У прызначаныя дні дастаўкі вам будуць прыходзіць апавяшчэння на пошту ці ў смс
             (пераважны спосаб сувязi можна абраць у асабістым кабінеце), каб вы не забыліся пра сваю замову.</p>
       </section>
-
       <section class="items_to_order">
          <div class="title_item_to_order">
             <span>тавары</span>
@@ -66,7 +65,6 @@
             <img src="img/octopus.png" alt="octopus">
          </div>
       </section>
-
       <section class="conditions">
          <div class="tittle_conditions">
             <p>умовы замовы</p>
@@ -75,12 +73,9 @@
             <p>Абярыце даты</p>
          </div>
          <div class="main_conditions">
-<div class="calendar_small">
-      <input id="date" type="date" name="date"/>
-</div>
-
-
-
+            <div class="calendar_small">
+               <input id="date" type="date" name="date" />
+            </div>
             <div class="calendar">
                <p class="month_calendar">ЖНIВЕНЬ</p>
                <div class="calender_days">
@@ -122,96 +117,148 @@
                </div>
             </div>
             <div class="right-part_conditions">
-            <div class="time">
-               <p>Жаданы час дастаўкi</p>
-               <form>
+               <div class="time">
+                  <p>Жаданы час дастаўкi</p>
+                  <form>
                      <input id="time_conditions" type="text" name="time_conditions" />
-                  </label>
-               </form>
+                     </label>
+                  </form>
+               </div>
+
+               <div class="sum">
+                  <p class="end-sum">ВЫНIКАВАЯ СУМА</p>
+                  <p class="end-sum-number">56 BYN</p>
+               </div>
+            </div>
+         </div>
+
+
+      </section>
+
+      <section class="payment">
+         <div class="tittle_payment">
+            <p>АПЛАТА</p>
+         </div>
+         <div class="main_payment">
+            <div class="payment_methods">
+               <img src="img/Maestro_Logo.png" alt="Maestro">
+               <img src="img/Master_Card_Logo.png" alt="MasterCard">
+               <img src="img/Belkart_Logo.png" alt="Belkart">
+               <img src="img/Visa_Logo.png" alt="Visa">
+               <img src="img/Mir_Logo.png" alt="Mir">
             </div>
             
-            <div class="sum">
-               <p class="end-sum">ВЫНIКАВАЯ СУМА</p>
-               <p class="end-sum-number">56 BYN</p>
+            <div class="cards">
+               <!-- <img src="img/cards.png" alt="Cards"> -->
+               <div class="card_blue">
+                  <form class="blue">
+                     <h5 class="card_number_title">Нумар карты</h5>
+                     <input id="card_number" type="number" name="card_number" required min="19"
+                        placeholder="XXXX XXXX XXXX" />
+                     <h5 class="card_validity">Тэрмiн дзеяння</h5>
+                     <div class="card_validity_date">
+                        <input id="card_month" type="number" name="card_month" required="2" placeholder="01" />
+                        <h5 class="card_validity_slash">/</h5>
+                        <input id="card_year" type="number" name="card_year" required="2" placeholder="20" />
+                     </div>
+                     <h5 class="card_name">Iмя i прозвiшча ўладальнiка карты</h5>
+                     <input id="card_name" type="text" name="card_name" placeholder="Лацiнкай" />
+                  </form>
+               </div>
+               <div class="card_red">
+                  <div class="black_line"></div>
+                  <form class="red">
+                     <h5 class="red_card_number">СVC/CVV</h5>
+                     <input id="CVC" type="number" name="CVC" required="3" placeholder="123" />
+                  </form>
+               </div>
             </div>
+         
          </div>
-   </div>
+      </section>
 
+      <div class="button-wrap-zamova">
+         <a href="#modal" class="zamova-button">АФОРМIЦЬ ЗАМОВУ</a>
+      </div>
 
-   </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <div class="page-footer">
-      <div class="footer-top">
-         <div class="contact-us">
-            <div class="socials-bottom">
-               <button> <img src="img/twt.svg" alt="twitter"></button>
-               <button><img src="img/fb.svg" alt="facebook"></button>
-               <button><img src="img/inst.svg" alt="instagram"></button>
-               <button><img src="img/vk.svg" alt="vkontakte"></button>
-            </div>
-            <p class="e-mail">trymajrybu.by@gmail.com</p>
-            <table class="numbers">
-               <tr>
-                  <th>(а1)</th>
-                  <th>+375293456730</th>
-               </tr>
-               <tr>
-                  <th>(мтс)</th>
-                  <th>+375174002930</th>
-               </tr>
-            </table>
-         </div>
-
-
-         <div class="map-bottom">
-            <ul class="company" type="none">
-               <li>КАМПАНІЯ</li>
-               <li>ПРА НАС</li>
-               <li>НАШЫ Пастаўшчыкі</li>
-               <li>ПаРТНЁРАМ</li>
-               <li>ВАКАНСII</li>
-            </ul>
-            <ul class="catalogue" type="none">
-               <li>КАТАЛОГ</li>
-               <li>акцыi i знiжкi</li>
-               <li>рыба</li>
-               <li>морапрадукты</li>
-            </ul>
-            <ul class="services" type="none">
-               <li>ПАСЛУГІ СЭРВІСУ</li>
-               <li>дастаўка</li>
-               <li>спосабы аплаты</li>
-               <li>нешта не так?</li>
-            </ul>
-         </div>
-
-         <div class="address">
-            Беларусь, г. Минск, ул. Свободы 23
-            220141
+      <div id="modal">
+         <div class="modal-content">
+            <img src="img/ryba_run.png" alt="fish">
+            <a href="#">зачынiць</a>
          </div>
       </div>
-      <div class="copyright">Ⓒ 2021-2022 trymajrybu.com
-         All rights reserved</div>
 
 
-   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="page-footer">
+         <div class="footer-top">
+            <div class="contact-us">
+               <div class="socials-bottom">
+                  <button> <img src="img/twt.svg" alt="twitter"></button>
+                  <button><img src="img/fb.svg" alt="facebook"></button>
+                  <button><img src="img/inst.svg" alt="instagram"></button>
+                  <button><img src="img/vk.svg" alt="vkontakte"></button>
+               </div>
+               <p class="e-mail">trymajrybu.by@gmail.com</p>
+               <table class="numbers">
+                  <tr>
+                     <th>(а1)</th>
+                     <th>+375293456730</th>
+                  </tr>
+                  <tr>
+                     <th>(мтс)</th>
+                     <th>+375174002930</th>
+                  </tr>
+               </table>
+            </div>
+
+
+            <div class="map-bottom">
+               <ul class="company" type="none">
+                  <li>КАМПАНІЯ</li>
+                  <li>ПРА НАС</li>
+                  <li>НАШЫ Пастаўшчыкі</li>
+                  <li>ПаРТНЁРАМ</li>
+                  <li>ВАКАНСII</li>
+               </ul>
+               <ul class="catalogue" type="none">
+                  <li>КАТАЛОГ</li>
+                  <li>акцыi i знiжкi</li>
+                  <li>рыба</li>
+                  <li>морапрадукты</li>
+               </ul>
+               <ul class="services" type="none">
+                  <li>ПАСЛУГІ СЭРВІСУ</li>
+                  <li>дастаўка</li>
+                  <li>спосабы аплаты</li>
+                  <li>нешта не так?</li>
+               </ul>
+            </div>
+
+            <div class="address">
+               Беларусь, г. Минск, ул. Свободы 23
+               220141
+            </div>
+         </div>
+         <div class="copyright">Ⓒ 2021-2022 trymajrybu.com
+            All rights reserved</div>
+
+
+      </div>
 
 
 
