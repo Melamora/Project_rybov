@@ -1,0 +1,182 @@
+@media screen and (max-width: 1200px) {
+   .header {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+
+   .footer-top {
+      flex-direction: column;
+   }
+
+   .different_fish {
+      padding: 0 50px;
+      align-items: center;
+      justify-content: center;
+
+   }
+
+   .gallery-fish {
+      grid-column-gap: 10px;
+      padding: 0 30px;
+   }
+
+   .fish_top {
+      margin-bottom: 60px;
+   }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 900px) {
+
+
+   .top-right-text {
+      display: none;
+   }
+
+
+   .logo {
+      left: 0;
+   }
+
+   .search-container {
+      display: none;
+   }
+
+
+   .burger span {
+      display: contents;
+      content: "\2630";
+      color: white;
+
+   }
+
+   .footer-top {
+      flex-direction: column;
+   }
+
+   .map-bottom {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+
+   .different_fish {
+      padding: 0 15px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+   }
+
+   .fish_top {
+      margin-bottom: 30px;
+   }
+
+   .fish {
+
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+   }
+
+
+   .gallery-fish {
+      grid-column-gap: 10px;
+      padding: 0 30px;
+   }
+
+   .title-fish {
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-decoration: none;
+      text-align: center;
+   }
+
+   .frish_fish {
+      align-items: center;
+   }
+
+}
+
+@media screen and (max-width: 576px) {
+
+   .top-right-text {
+      display: none;
+   }
+
+   .logo {
+      left: 0;
+   }
+
+   .search-container {
+      display: none;
+   }
+
+
+   .burger span {
+      display: contents;
+      content: "\2630";
+      color: white;
+
+   }
+
+
+   .footer-top {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .map-bottom {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+   }
+
+   .page-footer {
+      padding: 20px 50px 10px 50px;
+   }
+
+
+   .different_fish {
+      padding: 0 15px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2px;
+   }
+
+   .fish {
+
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+   }
+
+
+   .gallery-fish {
+      grid-column-gap: 10px;
+      padding: 0 30px;
+   }
+
+   .title-fish {
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-decoration: none;
+      text-align: center;
+   }
+
+   .frish_fish {
+      align-items: center;
+   }
+
+   .fish_top {
+      margin-bottom: 10px;
+   }
+
+
+}
