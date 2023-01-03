@@ -201,6 +201,8 @@ input {
    grid-column-gap: 30px;
    grid-row-gap: 55px;
    align-items: center;
+   align-content: center;
+   justify-content: center;
    max-width: 1120px;
    width: 100%;
    margin: 0 auto;
