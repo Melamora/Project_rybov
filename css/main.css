@@ -432,7 +432,7 @@ input {
    margin-bottom: 10px;
 }
 
- h4 {
+h4 {
    font-weight: 400;
    font-size: 20px;
    line-height: 21.64px;
@@ -630,7 +630,7 @@ input {
 .fishes-bottom img {
    margin-bottom: 68px;
    width: 100%;
-   margin:0 auto;
+   margin: 0 auto;
 }
 
 .page-footer {
