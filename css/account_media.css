@@ -1,11 +1,5 @@
 @media screen and (max-width: 1200px) {
-   .header {
-      padding-left: 10px;
-      padding-right: 10px;
-   }
-
-
-   .footer-top {
+   .container {
       flex-direction: column;
    }
 
@@ -14,76 +8,9 @@
 @media screen and (min-width: 576px) and (max-width: 900px) {
 
 
-   .top-right-text {
-      display: none;
-   }
-
-
-   .logo {
-      left: 0;
-   }
-
-   .search-container {
-      display: none;
-   }
-
-
-   .burger span {
-      display: contents;
-      content: "\2630";
-      color: white;
-
-   }
-
-   .footer-top {
-      flex-direction: column;
-   }
-
-   .map-bottom {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
 }
 
 @media screen and (max-width: 576px) {
 
-   .top-right-text {
-      display: none;
-   }
-
-   .logo {
-      left: 0;
-   }
-
-   .search-container {
-      display: none;
-   }
-
-
-   .burger span {
-      display: contents;
-      content: "\2630";
-      color: white;
-
-   }
-
-
-   .footer-top {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .map-bottom {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      width: 100%;
-   }
-
-   .page-footer {
-      padding: 20px 50px 10px 50px;
-   }
+  
 }
