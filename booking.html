@@ -147,33 +147,36 @@
                <img src="img/Visa_Logo.png" alt="Visa">
                <img src="img/Mir_Logo.png" alt="Mir">
             </div>
-            
+
             <div class="cards">
-               <!-- <img src="img/cards.png" alt="Cards"> -->
                <div class="card_blue">
                   <form class="blue">
                      <h5 class="card_number_title">Нумар карты</h5>
-                     <input id="card_number" type="number" name="card_number" required min="19"
-                        placeholder="XXXX XXXX XXXX" />
+                     <input id="card_number" type="text" name="card_number" required minlength="19" required
+                        maxlength="19" placeholder="XXXX XXXX XXXX" />
                      <h5 class="card_validity">Тэрмiн дзеяння</h5>
                      <div class="card_validity_date">
-                        <input id="card_month" type="number" name="card_month" required="2" placeholder="01" />
+                        <input id="card_month" type="text" name="card_month" required minlength="2" required
+                           maxlength="2" placeholder="01" />
                         <h5 class="card_validity_slash">/</h5>
-                        <input id="card_year" type="number" name="card_year" required="2" placeholder="20" />
+                        <input id="card_year" type="text" name="card_year" required minlength="2" required maxlength="2"
+                           placeholder="20" />
                      </div>
                      <h5 class="card_name">Iмя i прозвiшча ўладальнiка карты</h5>
-                     <input id="card_name" type="text" name="card_name" placeholder="Лацiнкай" />
+                     <input id="card_name" type="text" name="card_name" placeholder="Лацiнкай" required minlength="30"
+                        required maxlength="30" />
                   </form>
                </div>
                <div class="card_red">
                   <div class="black_line"></div>
                   <form class="red">
                      <h5 class="red_card_number">СVC/CVV</h5>
-                     <input id="CVC" type="number" name="CVC" required="3" placeholder="123" />
+                     <input id="CVC" type="text" name="CVC" required minlength="3" required maxlength="3"
+                        placeholder="123" />
                   </form>
                </div>
             </div>
-         
+
          </div>
       </section>
 

@@ -401,12 +401,16 @@ input {
 }
 
 .time input {
+   padding: 0 10px;
    width: 346px;
    background-color: var(--color-white);
    color: var(--color-background-dark);
    height: 45px;
    border: none;
    border-radius: 11px;
+   font-weight: 450;
+   font-size: 20px;
+   line-height: 21.64px;
 }
 
 .sum {
