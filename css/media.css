@@ -25,6 +25,10 @@
       margin-bottom: 0;
    }
 
+   .banners {
+      flex-direction: column;
+   }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 900px) {
@@ -171,9 +175,25 @@
       margin-bottom: 10px;
    }
 
+   .banners {
+      flex-direction: column;
+   }
+
+   .central-part-trymai-rybu {
+      justify-content: center;
+      align-items: center;
+   }
+
 }
 
 @media screen and (max-width: 576px) {
+
+   .central-part-trymai-rybu {
+      justify-content: center;
+      align-items: center;
+   }
+
+
    .header {
       padding-left: 10px;
       padding-right: 10px;

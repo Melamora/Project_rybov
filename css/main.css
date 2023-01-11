@@ -74,7 +74,7 @@ img {
    align-items: center;
    background-color: var(--color-black);
    padding: 30px 160px;
-   margin: 0 auto;
+   /* margin: 0 auto; */
    position: fixed;
    top: 0;
    z-index: 2;
